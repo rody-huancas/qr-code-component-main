@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGray: hsl(212, 45%, 89%);
+  --GayishBlue: hsl(220, 15%, 55%);
+  --DrkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--LightGray);
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target {
+  width: 300px;
+  height: 470px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.target .target-img img {
+  border-radius: 15px;
+}
+
+.target-title {
+  color: var(--DrkBlue);
+  font-size: 1.3rem;
+}
+
+.target-description {
+  color: var(--GayishBlue);
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.attribution {
+  margin-top: -120px;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--DrkBlue);
+}
